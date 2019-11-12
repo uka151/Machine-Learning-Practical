@@ -1,0 +1,16 @@
+import numpy as np
+print('--'*10)
+ddarr = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [7, 8, 9, 10]])
+print(ddarr)
+print(ddarr.dtype)
+print("ddarr.dim", ddarr.ndim)
+print('ddarr.size: ', ddarr.size)
+print('shape', ddarr.shape)
+print(len(ddarr))
+print("ddarr[0,2]", ddarr[1, 3])
+print(ddarr[2, :])
+
+d1 = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]])
+print(d1)
+print(d1.ndim)
+print(d1[0:1, 1])
